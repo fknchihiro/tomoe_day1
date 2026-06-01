@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<title>【巴・夏至病】6_18 無事でよかった</title>
+<style>
+*{margin:0;padding: 0;font-size: 14px;font-family : 'メイリオ',Meiryo,Osaka,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;}
+body{width: 100%;margin: 0;padding: 0;background-color: #f7f7f7;position: relative;}
+a{color: #666666;}
+a:hover{color: #CD0000;}
+h1{font-size: 21px;color: #666666;margin: 0px;padding: 0px;border-bottom: 1px solid #CCCCCC;}
+h2{font-size: 16px;color: #666666;margin: 5px;padding: 50px 0 0 0;border-bottom: 1px dotted #CCCCCC;}
+label{transition: all 0.2s;}
+#toggle{display: none;}
+#label_toggle{display: block;width: 100px;text-align: center;padding: 0;border: 2px solid #CD0000;background-color: #FFFFFF;color: #CD0000;border-radius: 15px;position: fixed;top: 10px;right: 10px;z-index: 1005;}
+#label_toggle:hover{background-color:#CD0000;color:#FFFFFF;}
+header{display: block;width: 0px;height: 100%;position: fixed;background-color: #FFFFFF;border-left: 1px solid #CCCCCC;z-index: 2;top: 0;right: 0;overflow-y: auto;overflow-x: hidden;transition: all 0.2s;padding: 50px 0 0 0;box-sizing: border-box;}
+#toggle:checked + header{width: 200px;}
+header label{display: block;width: 180px;margin:0 5px;padding: 5px;border-bottom: 1px dotted #EFEFEF;}
+header label input[type="checkbox"]{margin-right: 5px;}
+label:hover{cursor:pointer;background-color: #EFEFEF;}
+.wrapper{display: block;width: calc(100% - 30px);max-width: 1100px;padding: 30px 15px 100px 15px;margin: 0 AUTO;overflow: hidden;position: relative;background-color: #FFFFFF;}
+/* ログ部分 */
+dl{display: block;margin: 0;padding: 3px;box-sizing: border-box;}
+dl::after{display: block;content: "";clear: both;}
+dt{display: block;font-size: 0.8em;font-weight: bold;float: left;width: 100px;margin: 0;padding: 5px 5px;text-align: right;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+dd{display: block;width: calc(100% - 120px);margin: 0;padding: 2px;float: right;line-height: 1.8em;}
+.zatsudan{width: 95%;margin: 0 0 0 AUTO;background:#f7f7f7;border-left:1px solid #CCCCCC;}
+.other{background-color:#fff7ef;}
+.secret{width: 98%;margin: 0 0 0 AUTO;border-left:3px solid #CCCCCC;}
+.group{background:#f9f9f9;border-left:1px solid #CCCCCC;}
+@media (max-width:480px){
+  dt{display: inline-block;float: none;width: calc(100% - 6px);margin: 0;padding: 3px 0 0 3px;text-align: left;}
+  dd{display: inline-block;width: calc(100% - 6px);padding: 3px;float: none;}
+}
+</style>
+<style>
+.tab_0{background-color:#ffdfea;border-color:#E91E63;}
+.tab_0.selected{display: none;}
+.tab_1{background-color:#eaffff;border-color:#15b3b3;}
+.tab_1.selected{display: none;}
+
+</style>
+</head>
+<body>
+<label for="toggle" id="label_toggle">表示/非表示</label>
+<input type="checkbox" name="toggle" id="toggle">
+<header>
+<label>▽ 非表示にするタブ</label>
+<label for="main"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="main">メイン</label>
+<label for="zatsudan"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="zatsudan">雑談</label>
+<label for="tab_0"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="tab_0">天界</label><label for="tab_1"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="tab_1">成長</label>
+</header>
+<div class="wrapper">
+<h1>【巴・夏至病】6_18 無事でよかった</h1>
+<h2 id="day1">【巴・夏至病】6_18 無事でよかった</h2>
+<dl style="color:#595959" class="zatsudan"><dt>▼</dt><dd>【お知らせ】<br>・ハウスルール等を画面上に表示しております。開始前にご一読ください。<br><br>・本卓はKPレス対応シナリオのため、一部の場面でPCの行動が制限されることがあります。（提示される選択肢より行動を決めてもらう等）<br><br>・ダイス結果や選択によりルートが分岐されます。いつもよりもKPへのゴネが効かないシナリオであることをご了承ください。<br><br>・これは全4話のキャンペーンシナリオの1話目です。<br>　最後まで遊ばないと何もわかりません。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>あー　あーー　テス、テス </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>初の♀個体操作だわよ　一人称も語尾も定まってないだわよ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>技能値の平均を昨日計算してみたら、53だった　生きる </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ぴっぴ！旅先案内人です！おつかれさまです！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>先輩だ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>かわいい～～～～よ～～！本日はよろしくお願いします！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>喋ってみた感じ、だいぶダウナー寄りなキャラになると思う　よろしくです </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>好きだ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ふふん </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>説明書きもいつも通りのやつだけど　事前に聞いときたいとこありますか？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>うーん、待ってね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>キャラ駒はぶっ飛ばしでよかったよね？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>OKです！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はーい </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>トイレ行きたい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ｗｗ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>盛り塩 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>おお </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>盛り塩 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>こっちの魂は大丈夫そう </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>なんだったんだろうね…本当に </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ひどい話だよもう </dd></dl>
+<dl style="color:#728a92" class="zatsudan"><dt>つだ</dt><dd>その説は本当に…… </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ｗｗｗ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>夏至真っ二つ…一体何が起こるんだってばよ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ふふふ　ははは </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>久々に食べたらいかフライって硬いのな </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>フライとか言わないで　おなかすいた </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ご飯食べた？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>たべた </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>えらい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ちゃーはん </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>最高やん </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>いいな中華 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>なにかつまみつつやろうぜ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>いえい！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>水なくなった　汲んでくる </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>いてら </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ただいま </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はや </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>あ！いっこ事前にお知らせしたいことが </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ほ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ホラー耐性高そうだから活躍場面ないかもだけど </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>今回完テキホラーシということで怖くてどうしようもなくなっちゃった時のための救済措置をご用意しています </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>画面右上に「KPよびだしベル」をご用意しています<br>御用の際は押してくださいね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>かわ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ｗｗ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ぽめ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>もしこわくなったらこのベルでお知らせください　助っ人を呼んできます </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>助っ人ｗｗ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>おけ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>え、発動させてみたいな </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ホラー…洋画のジャンプスケア的なのは苦手…ってくらい…か？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>あと　ダウナーちゃんってことだけど　ソロシなのでね！結構積極的に探索者していかないとシナリオぶっつり終了とか全然あるので　興味津々にいろんなことに首突っ込んでください </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>じゃんぷすけあ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>おけ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>あ、ばん！！ってやつか </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>そうそう </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>たぶんエクスクラメーションマークほぼ使わんだけで、テンションはつだとおんなじだから </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>うんうん </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>大丈夫　飛んで火にいる夏の虫してくる </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>1話目　ロスト想定無し<br>2話目　ロスト想定無し<br>3話目　ロスト有だけどほぼないようなもん<br>4話目　1~3話目でどういう道筋を通ってきたか、どういう選択をするか、一発勝負出目次第 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ほー </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>という感じ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>先輩方はめっさ悩んだそうで… </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ふふｗｗｗ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>多分自分も悩むな絶対 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>3話目まではＰＣの勢いに任せてさくさく進んだけど　4話目は悩みすぎて途中お風呂休憩入れたな </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>そんなに </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>まじか </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>おそろしや4話 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>伏線というか　振り返ってみるとここってもしかして………みたいなのはいっぱいあるシナリオなのでぜひ楽しんでください </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>すんごい楽しみ </dd></dl>
+<dl style="color:#728a92" class="zatsudan"><dt>つだ</dt><dd>今のうちに喝入れさせて！！！！ああああああああ！！！！！！！！！！！！！ </dd></dl>
+<dl style="color:#728a92" class="zatsudan"><dt>つだ</dt><dd>よし </dd></dl>
+<dl style="color:#728a92" class="zatsudan"><dt>つだ</dt><dd>出し切った！！！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>つだせんぱいｗｗｗｗｗｗｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>やったーー！！では時間になりましたしそろそろ始めて行きますよ～～！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はーい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>夏に至る病　第三走者：大田 巴<br>がんばって生き残りましょう！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>えいえいおー </dd></dl>
+<dl style="color:#595959" class="zatsudan"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="zatsudan"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>親戚の家に泊まることになった。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>この村は、なんとなく、おかしい気がする。<br><br>理由は沢山ある。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>それをひとつずつ、振り返っていこうと思う。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>**********************************<br><br><br><br>「夏に至る病」<br><br><br><br><br>　ひとつめ<br><br>　　　　　無事でよかった<br><br><br><br>　作：稀彦 様<br><br><br><br>********************************** </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたはこの6月、ほとんどを親戚の家で過ごすことになっていた。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>理由はなんでもいい。<br>未成年であれば両親の仕事の都合であるだろうし、成人しているのであれば、住んでいるアパートが全焼したのかもしれない。<br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>いやはや全く、世の中、何が起こるかわからないものだから。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>日付で言うならば、6月1日から、6月22日まで。そこそこの期間だ。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたを受け入れたのは、叔母だった。<br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>3週間は確かに長いな </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>叔母はのどかな土地――言葉を選ばずに言うとクソ田舎――に平屋の一軒家を建て、そこで独り住んでいる。<br><br>その一室を、あなたは6月の大半間借りしていた。<br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>叔母は言う。<br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「この村、ちょっと変わってるからさ。馴染むまで時間かかるかもね」<br><br>「あ、だから、ここにいる間に馴染めきれないかも」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>「無理だな、って思ったら、すぐに逃げるんだよ。」<br><br>「他人の家にまでは入ってこないからさ」<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたはそんな話を聞き流しつつ。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>今日も、梅雨のわりに晴れている空を、縁側から見上げていた。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>************<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>この平屋の玄関先には電信柱がひとつ、立っている。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたは外へ買い物へ行く際、<br>散歩へ行く際、<br>親戚の家を勝手に出入りしている猫の後をついていく際。<br><br>毎度、必然的に視界に入れている。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>RPは好きなタイミングで挟まってきて大丈夫です！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はーい </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>その電柱には、毎日。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたがやってきた6月1日から、毎日。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>確かに入り込むすきわからんかった　助かる </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>迷子犬、迷子猫探しの貼り紙が貼られている。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>この村のペット飼育率はやけに高いようだ。<br>しかも、一度も被っているのを見たことが無い。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「猫～～ねこねこ………あ」今日の運勢を見る感覚で、電柱の張り紙を確認する </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そんな張り紙をずっと不思議に思っていた、とある日。<br>たしか、6月10日くらいだったと思う。<br><br>用事は何でもいい。とにかく日中、家から出た。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>電柱を見る。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>今日も、貼り紙が貼ってある。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>＜目星＞ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>CCB&lt;=65 【目星】 (1D100&lt;=65) ＞ 72 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ねこねこかわいい </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>だめそうです </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>大丈夫　致命傷にはならないので </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>続けます </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>どしましょ先輩　猫が可愛かったから仕方ない </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>その日探しているのは、犬のようだ。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はぁい </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>コロちゃん。雑種犬。<br>書いてあるのは「保護しています。心当たりのある方はここに電話してください」という文字と、電話番号。<br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…保護してます、か」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「今日は…あたり　かな？」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>恋する </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ふふ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>記念にスマホで張り紙を撮影しても良いですか？ </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>千早</dt><dd>何言っても意味深！！！！！！！！！！これだよこれえ！！！夢女子大量生産機天上つだの魂！！！！！！！！！！！！！！！！ </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>OKです。止まっているものですし、技能値ロールなしで綺麗に記録に残すことができます。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>ｶｼｬﾘ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…また意味のないの撮っちゃった」綺麗に画面に収まった張り紙の画像を見ながら </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>――そうやってぼうっとポスターを眺めていると。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>小走りでやってきた少年が、あなたと同じ電柱を見つめた。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そして近くの公衆電話にかけより、電話をかけ始める。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>＜聞き耳＞ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>CCB&lt;=75 【聞き耳】 (1D100&lt;=75) ＞ 65 ＞ 成功</dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>話している内容に耳を傾ける。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>少年はコロちゃんに餌を上げている家の子供らしい。<br>見つかってよかったこと、すぐに引き取りに行くことを伝え、少年は駆け出して行った。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…まさか現場に立ち会うとは」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>その少年に見覚えはありますか？ </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>いえ、見覚えはなさそうですね。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>流石にまだ村の子の把握はできないか </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>千早</dt><dd>ある意味源なんだよな　この子も外部からの子 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「よかったね」と張り紙に向かってつぶやき、少年が駆けて行った方を眺めます </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>追いかけるべきなのか </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>こういった貼り紙も、実のところはきちんと効果があるらしい。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたはそんなことを思いながら、そしてすぐに忘れながら、用事を済ませることだろう。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>大丈夫っぽい </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>また、別の日。6月14日くらい。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたはこの日も家を出た。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>電柱を見る。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>今日も、貼り紙が貼ってある。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>＜目星＞ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>CCB&lt;=65 【目星】（今日の運勢は～…）ちらり (1D100&lt;=65) ＞ 42 ＞ 成功</dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>占い </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>日替わりなんだもん </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>その日探しているのは鳥のようだ。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>スズメちゃん。という名前のオカメインコ。<br>書いてあるのは「保護しています。心当たりのある方はここに電話してください」という文字と、電話番号。<br>末尾は9999。覚えやすい。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>＜アイデア＞ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「インコでスズメ…」ふふっと笑いながら、また保護だ…と少し引っ掛かりを覚えます </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>CCB&lt;=70 【アイデア】 (1D100&lt;=70) ＞ 88 ＞ 失敗</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>写真があります </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>確認しても良いですか？電話番号 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>写真を見比べると、先日の貼り紙に書かれていた電話番号と同じだと気付くだろう。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>もしや…と思って写真と張り紙の番号を見比べ、少し驚きます </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……やっぱり　なーんか見た覚えある番号だと思ったんだよね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ここの人、保護する天才なのかな？」 </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>千早</dt><dd>ｳ~~~~~~~~~~~かわいい～～～～～～～好き～～～～～～～～ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>抜け目ない…………… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…てか、保護した子達の名前って、この人が考えてるのかな」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「犬は首輪についてるかもだけど…インコ…スズメ？」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…鳥のことはよくわからないけど」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>しばらくふーんと眺めながら考えてます </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>考え込みながらポスターを見ていると、一人の女性が貼り紙の前で立ち止まった。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>田舎だと考える時間がたっぷりあっていいね </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>この人も先日の少年のように、心当たりがあるのだろうか。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>□<br>　▶ 話しかける<br>　▶ 話しかけない </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>しばらく横目で様子を見てから、話しかけますかね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あの…この子の飼い主さんですか？」ポスターを指しながら </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたが話しかけると、女性はハッとした表情で貼り紙から目線を外した。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「！　こ、こんにちは………」びっくり </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「あ……すみません、お邪魔でしたか？」道の端に寄りつつ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…こんにちは？」つられてびっくりしたリアクションを取る </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あ、いえ……ただ見てただけです」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「この前もこの電話番号の人が犬を保護してて、それ見た子が迎えに行ってたからもしかしたらって……」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「あ、そうだったんですね。ええと、私が飼っているわけじゃないんですけど……」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「私、今婚約者の実家に挨拶に来ていまして………そこで飼っていたインコが逃げてしまったみたいで、探していたんです」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そう言ってちょっと照れくさそうに笑う。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あ……なるほど」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>照れてる人を見て微笑ましく思う </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「もしかして、その子がこの子…なんですかね？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「うーん、もしかしてこの子かな？って思ってて。写真でちらっと見せてもらったぐらいなので、自信ないんですけど………」ポスターを指さす </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「でもインコのすずめちゃん……って、さすがに他にいないですよね」くすくす </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「たしかに」つられてくすくす笑う </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>子供に見覚えあるか<br>電話番号おなじ<br>保護してる人なに？<br>全部のキーワード、シンプルにちゃんと拾えてて偉い<br> </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>千早</dt><dd>それね </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>あとサクサク声かけてて偉い </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>このシナリオと対話できてる </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>千早</dt><dd>この空間いいにおいしそう </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>4話での推理からの行動楽しみすぎる </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「この人、8時までは電話取ってくれるみたいですし、一回家の人に確認してからでもいいんじゃないですかね？」 </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>絶対におりに入らないでほしい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「心配なら…ですけど」 </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>1話がそこで終わるだけだから<br>シナリオ自体は終わらないから<br><br>檻に、入るな </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「やっぱりあれだよね。番号書いてたし……電話してみればいいのかな、うん」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「それもそうか。すみません、お気遣い頂いちゃって………やっぱりそうだと思うので私、彼に伝えてきますね！」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>女性は再び電柱に近寄ると、鞄からメモ帳を取り出し、電話番号をメモし始める。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「はい、早く戻ってくるといいですね」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>それを終えると、彼女はあなたの方をくるりと振り向いた。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「本当にありがとうございました！」<br><br>「今日も6月なのに暑いですよね、熱中症にならないように気を付けてくださいね」ぺこり </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「いえいえ、お互い水分補給でなんとか乗り切りましょう」ぺこり </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>女性はあなたに会釈をして、その場を立ち去っていった。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>思ったより社交的で草 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>ああ、今日も。<br><br>誰かがなにかを探している。<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そして、今日。<br>6月18日。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたは朝起きて、猫の餌を手に庭をうろつく叔母を見つけただろう。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…おはよう、叔母さん」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「………あ、巴。おはよう」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「ねえ、どうしよう、大変なの」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ん？どうしたの？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「いつもご飯を食べにくるニャンコが、昨日の夜から見当たらなくて………」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あらら…」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「悪いんだけど、一緒に探してもらってもいい？」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「え、こうゆうことって初めて？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「うん、毎日いつも決まった時間帯に来るからさ」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「心配だなあ……」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…そうなんだ　それは確かに心配だね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「わかった　準備終わったら私も探してみる」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>誰か喋る友達がいるとｽﾝｯってしてそうなイメージある </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>見えた </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「助かる！家の近くにいたら連れてきてほしいな」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「おっけー」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>叔母は少し安心したように微笑むと、また「ニャンコー？！」と庭をうろつき始めた。<br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ふむ…」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>ニャンコのことは自分もよく見てたから特徴わかってるって認識で良いですか？ </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>大丈夫です。把握してるので探すには困らないでしょう。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>了解です </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>朝の諸々の支度を済ませて、とりあえず家の周りをぐるりと一周してみます </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>あなたは猫を探すため、家から出る。<br><br>そうして、玄関先の電柱の前に立つ。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>いつも、ここに、貼り紙があるから。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>しかし、今日に限って。<br>それがなかった。<br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…………あれ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「まさかの」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>代わりに。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>今まさに、貼り紙を貼ろうとしている人がいた。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>＜目星＞ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>CCB&lt;=65 【目星】 (1D100&lt;=65) ＞ 98 ＞ 致命的失敗</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ええと </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ねえ、どうしよう </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>嫌な予感ってやつ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>まってねえ～…………… </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>すまない、KP </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>すまない…せんぱい…… </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ねこじゃらしお守り代わりに持っとけばよかった… </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>目星は失敗情報を出しましょう。<br>代わりに技能値判定を2回分お値引きします。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ｗｗｗｗｗｗｗｗｗｗ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>強風（B装備） </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>くそｗｗｗｗｗｗｗｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>みなとくんのをそのまま使い回せたよ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>なんでだよｗｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>あの人もこの部屋でファンブル出したから……………………………………… </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>さっすが先輩　やってくれると信じてました </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>1回値引きごとにシール剥がしていきます！！！！！！！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はぁい　甘んじて受けます </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>描写続けていきますよお </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>あい </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>その貼り紙には、まさに、あなたが……というより親戚が探していた猫の写真が掲載されていた。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>書いてあるのは「保護しています。心当たりのある方はここに電話してください」という文字と、電話番号。<br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あ…あのっ」写真を確認して思わず声をかけます </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたが話しかけると、貼り紙を持つ人物は驚いた顔で振り向く。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「あ……お心当たりがありますか？」<br><br>そう、ゆるりとほほ笑んだ。<br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「はい…その子、うちの叔母さんが世話してる子なんです」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたが猫のことを話すと、その人物は「そうでしたか」と安堵した様子を見せた。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「よかった、飼い主が見つかって。」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「この村はみんな、ちゃんと戸締りをしないんです。」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「だから、飼っている動物がすぐに逃げ出してしまう」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「家のゲージに入ってもらっています。引き取りに来てくれませんか？」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「今から行ってもいいんですか？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「ええ、ぜひ。」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あ、じゃあ…」まあ大人しくついていくと思いますね　中学生なんで </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「本当ですか？よかった……実は猫アレルギーを持ってまして、早く引き取ってほしかったんです」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「え、それなのに保護してくれてたんですか…？優しいんですね」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「困っている子が居たら、きちんと保護しなければいけないでしょう？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「家はこちらです。着いてきてください。」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>その人物は微笑み、あなたを自宅へと案内する。 </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>あーあ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>とことこついていく </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>あーあ‼️ </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>その人物の自宅、というのは、叔母の家と同じく平屋の一軒家であった。<br>表札には名前が書かれておらず、この人物の名前はわからない。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「この部屋でケージにいれてるんです。私はアレルギーなので、部屋に入れません。連れて行ってくれませんか」<br><br>「特にケージに鍵はついていませんから。お願いします」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>その人物は、そう話しながら、一つのふすまの前で足を止めた。<br>ふすまの中からはよく聞くにゃおんだかみゃおんだかわからない猫の鳴き声が聞こえてくる。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>いと怪しき家なり </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>千早</dt><dd>ごめんなさい　お尻　撫でます </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あ、はい」聞きたい事もあるが、とりあえず言われた通り素直に部屋に入る </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ニャンコー？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>そのままふすまを、開けると。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>そこには、あの猫がいた。<br><br>トイレとエサ皿と水の設置された、ふかふかの毛布までおかれた、結構快適そうなケージに入れられて。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>にゃおん、みゃおん。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>猫が鳴く。早く出せと言っているようだ。<br>ケージの広さは一畳ほどもあり、そんなに鳴く程の狭さでもないだろうに。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…随分快適そうじゃん　なに、どうしたの？」ニャンコの元気さにほっとしつつ呆れつつ、ケージを開ける </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>連れて帰ろうと、あなたはケージに手をかける。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そのまま開けると、あなたの腕をかいくぐり、猫がぴゅっと外に出てしまった。<br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ーーーーは？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>追おうと手を伸ばす、前に。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>あなたは背中を押された。<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>05_6</dt><dd><br>がしゃん。<br><br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>わお </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そんな音とともに、ケージの扉が閉められる音がした。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…え」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>腰をかがめた状態で突き飛ばされ、四つん這いの状態になっているあなたは、今後ろで何が行われているかはわからない。<br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>立とうにもケージの天井は低く立ち上がれない。<br>後ろでガチャガチャと金属音がする。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>05_8</dt><dd><br><br>がちゃん、という音が、最後にした。<br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>混乱でまだ状況の整理と危機感が整理されてませんねたぶん </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あ、あのー…？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「………ふふ、」<br><br><br>「ねえ、君。お名前は？」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>後ろからやつが話しかけてくる。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「私、ペットじゃないんですけど……？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>＜目星＞ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>CCB&lt;=65-15 【目星】 (1D100&lt;=50) ＞ 33 ＞ 成功</dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>ケージの床を見れば、ところどころに血痕が残されていることに気が付く。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そして。<br><br>ケージの格子部分に、長い髪の毛が絡まっていた。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……………」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>栗色のそれは……先日見かけた女性と、同じ色をしている。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…あの」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「これ、どういう…状況ですか？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>「お名前、教えてくれないの？」<br><br>「じゃあ勝手に名前をつけちゃおうかな……なんて」<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>膝をつき、背中を丸め、頭を低くしているしかないあなたに。<br><br>やつは、心底嬉しそうに語りかけてくる。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…趣味、悪いですよ？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>「大丈夫だよ」<br><br>「ここにいれば安全だからね」<br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>だんだんと「この人、アカンかもぉ…」って警戒心がむくむくしてくる </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>ケージの隙間から指を入れられているのか、突き出す形になっている尻を撫でられる。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>05_11</dt><dd><br><br>なで、なで。<br><br><br>なで、なで。<br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…は？」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>すみません </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ド変態やんけ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>体勢的にはそうなるか　ちくしょう </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「あの、やめてください？」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「きもちわるいです」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>「大丈夫。」<br><br>「最後まで責任を持つよ」<br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「持たなくていいので出してください」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>人間の指は、左右の腕に、五本ずつついている。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>だから。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>05_13</dt><dd><br><br>なで、なで。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>左の尻たぶと、右の尻たぶ。<br>それぞれを別々の指で、同時に撫でることは可能だとわかる。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>しかし。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>なで、なで。<br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>尻たぶって表現初めて知った </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>では、<br><br><br>同じく突き出す形になっている足の裏を撫でている指は、<br><br>いったいどこの誰のものだというのか。<br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……………」じっと気持ち悪さに耐えつつ、感触の違和感に警戒アラームがスタンバイする </dd></dl>
+<dl style="color:#595959" class="main"><dt>05_14</dt><dd><br><br>なで、なで。<br><br><br>なで、なで。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>尻を、足の裏を、<br><br>上からは背中を、腰を、<br><br>撫でられる。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたの見えない場所から無数の指が、このケージの中に閉じ込められているあなたの体を撫でている。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>いつの間にか大量の人間に囲まれているこの状況に恐怖を抱く。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>1＋1/1D2＋2の正気度を失う。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d100&lt;=50 【正気度ロール】 (1D100&lt;=50) ＞ 47 ＞ 成功</dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ファンブルここで消費します　あと技能振る機会ないので </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 大田 巴 ] SAN : 50 → 48 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>あ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はぁい </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>まって </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 大田 巴 ] SAN : 48 → 50 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d100&lt;=50-15 【正気度ロール】 (1D100&lt;=35) ＞ 85 ＞ 失敗</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d2+2 (1D2+2) ＞ 2[2]+2 ＞ 4</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>最高値♪ </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 大田 巴 ] SAN : 50 → 46 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>千早</dt><dd>仕方ないね♪ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>たすけてくださいせんぱい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>千早</dt><dd>あたしここでファンブル出したから仲間だよ♪ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>しかたないですね♪ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>千早</dt><dd>続けます♪ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>はい♪ </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd> <br> <br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>一人、二人、三人、<br><br><br>いやもっと。<br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>男子の先輩方も痴漢にあったんだ……そっか…… </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>やつ、が。<br>やつら、が。<br><br><br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>なでなでスライドすな </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>ケージに入っているあなたの、<br><br>伏せるしかない頭の、後頭部を。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>手のひら全体で、撫ぜた。<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>このケージに、手の入るほどの隙間はない。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>1D2/1D4+1の正気度を失う。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d100&lt;=46 【正気度ロール】 (1D100&lt;=46) ＞ 77 ＞ 失敗</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d4+1 (1D4+1) ＞ 3[3]+1 ＞ 4</dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>えら </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 大田 巴 ] SAN : 46 → 42 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ふ　ふふ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>絶句なう </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>05_18</dt><dd><br><br><br>「「「「君が無事でよかった」」」」<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br> <br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>06_01</dt><dd><br><br>がん、と。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>何かを殴る音がした。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>中学生だったらこれ、恐怖で声発せれないよなって </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>どさり、倒れる音。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>ケージに入れられていた手は、指は、一気に引いていった。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……………、……？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>がしゃがしゃという音がして。がしゃん、と最後に、ケージの扉があく音がした。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>服の腰部分をつかまれ、強引にケージから引きずり出される。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>様々な個所をぶつけながら引きずり出されたそこに、いたのは。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>「何してるの。帰るよ」<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>叔母であった。<br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>叔母が駐在に連絡し、村の人たちも引き連れやってきたころには、もう日は沈み始めていた。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>オレンジ色の空の下、駐在と叔母が座り込むあなたへ、紙パックの野菜ジュースを差し出す。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>駐在<br>「いやあ、びっくりした。この家は誰も住んでねえはずなんだが、なんか、人の声がするっつーから、村んガキがいたずらしちょるんかと思ったら」<br><br>「なーにケージ入って遊んでんだ、驚かせて」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>叔母<br>「本当だよ。自分から入って出られなくなったなんて、もう、間抜けすぎて笑えないよ」<br><br>「なかなか帰ってこなくて心配して、村の人たちに声かけまくったのに。恥かいちゃった」<br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>だまって受け取った野菜ジュースを飲んでる </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>□<br>　▶ ほかに人がいなかったか聞く<br>　▶ 何かを殴る音がしたことを聞く </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「…………でも、叔母さん　私を出す前に、何か殴ってなかった…？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「え？殴る？」<br><br>「殴ってはない、かな？殴るものも相手もなかったし」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「物音がしたっていうことなら、ふすまが開かないように立てかけられてた木の棒は外したよ」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「あのままじゃあケージからもそうだけど、部屋からも出られなかっただろうに～……今後は空き家にはいるのはやめてよね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……空き家じゃ、なかったよ　案内された」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ニャンコを、保護したって人に」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「人……？そんなのいなかったよね、駐在さん」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「ああ。あんたがこの家入っていくとこ、見たって村んやつもいたけど。お前さん一人でこの家侵入したんだろ」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>□<br>　▶ この家について聞く </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>それを聞いて地面を見ながら目を見開く </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……この家はじゃあ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……なに？なんだったの？」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>婚約者さん　無事ですか </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ガキも </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「誰も住んでないよ。今はな」<br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「じゃあ、前住んでた人は…どんな……」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「うーん、この家ねえ……」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>そう言って、駐在が語りだす。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「むかーし動物好きの一家が住んでたなぁ。」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「お子さん事故で死なせて、父親と母親の気が狂って、自殺したんだ」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>「ああ、たしか」<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>「現場は、お前さんの閉じ込められてた部屋だったな」<br><br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたは駐在や村の人たちに頭を下げつつ、叔母と帰路につくだろう。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「……それで？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「結局、何があったの？洗いざらい話しなさい。」<br><br>「一応、今君の保護者なんだからね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>駐在さんの話を聞いて、どこか納得感というかストンと落ち着いた気になった </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ん？ああ……えっとね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「ニャンコを探してて……ああ、家の前に電柱あるでしょ？あそこにいつも張り紙がしてあって…」<br>と、張り紙を貼ってる人に話しかけたこと、その人がニャンコを保護してるから…と、家に案内された事、猫アレルギーらしいから一人で部屋に入りニャンコをケージから出した事、代わりにケージに入れられ、ペットにされかけたこと<br>洗いざらい話します </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「すんごい撫でられたけど……その家3人家族…だったんでしょ？」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「なら…まあ、納得　かなって」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「貼り紙………」<br><br>「そんなのあった……？見たことないけど」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「………え？」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「うそ…いつも貼ってあったじゃん」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「そうだっけ？うーん……？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>「ほかに、その貼り紙を見た人はいないの？」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「……ちょっと待って、写真撮ってるんだった」スマホ取り出し画像を見せようとします　画像はありますか？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「他に？いたよ？」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>S1d2　1見える　２見えない (1D2) ＞ 2</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「雑種のワンちゃん…コロだっけ？を飼ってた少年と、インコのスズメを飼ってる家にあいさつに来てた女の人」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「名前は……勝手に付けたのかもだけど」 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたは自分のスマホを取り出しカメラロールを表示してみる。<br>そこにはただ電柱が映っているのみだった。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>確かにポスターを撮影したはずなのに。<br>1/1D2の正気度を失う。<br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「………、映って…ない　ね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d100&lt;=42 【正気度ロール】 (1D100&lt;=42) ＞ 43 ＞ 失敗</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d2 (1D2) ＞ 2</dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>いち </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 大田 巴 ] SAN : 42 → 40 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>うん？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>不定か </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>はや～～～～～～～～～～～～～～～～～い　終わってから処理します </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「でも……巴。冗談言うようなタイプじゃないもんね。」<br><br><br>「そうなんだ……その子たちも、あの家に行ったのかね」<br><br>「家の中には巴しかいなかったけど」<br><br> </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はい </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「あのままケージの中にいたら、どうなっていたんだろう」<br><br> </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>「………」ケージの中の女性がいた痕跡を思い出し、黙る </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「うーん……奇妙なことも、あるもんだなあ」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>叔母はそう言って、少しだけ目を伏せた後。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>あなたに向かってにっこりと微笑んだ。<br>心底安心したような、優しい顔で。 </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br>「でも」<br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>END2</dt><dd><br><br><br>「君"は"無事でよかった」<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br>その言葉が。<br><br>いやに、耳に残った。<br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd><br><br><br>…<br><br><br><br> </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>**********************************<br><br><br><br>「夏に至る病」1話<br>6/18：無事でよかった<br><br><br>　　END2 「無事でよかった」<br><br><br><br>********************************** </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>**********************************<br><br><br>生還報酬　SAN+1D6<br><br><br>********************************** </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>分岐がある……だと </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>今振っちゃっていいやつ？ </dd></dl>
+<dl style="color:#595959" class="main"><dt>▼</dt><dd>これは不可解な出来事のうちの一つだ。<br>これだけで何かがわかるわけがない。<br><br><br>「道端のいし」へ続く。 </dd></dl>
+<dl style="color:#595959" class="zatsudan"><dt>▼</dt><dd>ということで1話完走です！お疲れ様でした！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>振っていいよ～～～！！！！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>おつ……かれさまでした </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>不定はいつ振っとく？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>全部がおわったら？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>うーん　生還報酬振って黒字に戻ったらチャラにしようかな………次回ちょっと過去回想シーンもあってRPごっちゃになりそうなので </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>おけい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>大田 巴</dt><dd>1d6 (1D6) ＞ 2</dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 大田 巴 ] SAN : 40 → 42 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>えらい </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はーーーーーーーーーーー </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>人間だったわ　たぶん </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ただただペットかわいいねよしよしされてた　ってコト </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>なんか前回2人にはない背徳感があった　すみませんでした </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ｗｗｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>かわいいね……………………………………… </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>前回二人の反応気になる気になる </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>中学生ってな、非力やねん </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>真鍋は商業BL漫画でみた感じ　みなとはみなとだった </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>あーーーーーーーーーーーｗｗｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>中学生！！！！！！！年下 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>最高 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>中学生　怪異はまあまあ耐性あります！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ログ　お楽しみにお待ちください </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>やったあ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>なんか幽霊の仕業～って分かった瞬間　ｽﾝ………ってなるのが最高だった </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>変態オヤジに触られてるんじゃないっぽくてよかった… </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>本当にストンと納得した </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>よかったよかった </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>果たして本当にそうなのでしょうかね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>やっぱ怖いのは生きてる人間ってね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>…へ？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>指の本数の話きたから </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>では～～～～！ご飯前に2話も行っちゃう～～！？！？！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>6本あって化け物やんけ！！！！って話に持ってかれるのか思った </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はい！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ｗｗｗｗｗｗｗ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>数の話でした </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>あ！！！！まって　成長ロールメモ忘れてた！！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>目星を…96か98だった…気 </dd></dl>
+<dl style="color:#e91e63" class="group tab_1"><dt>千早</dt><dd>目星　98F </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>8だったか… </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ロールどうぞ！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ありがとうございます </dd></dl>
+<dl style="color:#607d8b" class="group tab_1"><dt>大田 巴</dt><dd>CCB&lt;=65 【目星】 (1D100&lt;=65) ＞ 34 ＞ 成功</dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>しかたないね！！！！！！！！！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>ディスコードに次のお部屋のリンク張りました！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>駒、自分でコピーして持ってけるようになったんだっけ？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>あーーー…そんな話あったな？アプデでね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>やってみよう </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>たぶんコマ右クリックして、って話だった </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>ちょいまってな </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>これで触れる！？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>やってみる　コピーはできた </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>おけ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>いけたかも </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>千早</dt><dd>おけ！では次のお部屋で！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>大田 巴</dt><dd>はーい！ </dd></dl>
+
+</div>
+<footer></footer>
+
+<script>
+const Hide = (checkbox) => {
+  const elmntTarget = document.getElementsByClassName(checkbox.id)
+  for (let intCount = 0; intCount < elmntTarget.length; intCount++) {
+    const message = elmntTarget[intCount]
+    const contexts = message.className.split(' ')
+    let elmntChecked = checkbox.checked
+    contexts.forEach((context) => {
+      const contextCheckbox = document.getElementById(context)
+      if (contextCheckbox) {
+        elmntChecked &= contextCheckbox.checked
+      }
+    })
+    message.style.display = elmntChecked ? 'none' : ''
+  }
+}
+</script>
+</body>
+</html>
